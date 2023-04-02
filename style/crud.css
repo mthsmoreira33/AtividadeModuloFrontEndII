@@ -1,0 +1,42 @@
+@import url(./index.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.float-button {
+    width: var(--width-float-button);
+    height: 3rem;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    background-color: var(--color-primary-growdev);
+    border-color: var(--color-primary-growdev);
+}
+
+.card-body {
+    background-color: hsl(213.33,10.11%,27.45%);
+}
+
+.logout-button {
+    width: var(--width-float-button);
+    height: 3rem;
+    left: 1.5rem;
+    bottom: 1.5rem;
+    background-color: var(--color-primary-growdev);
+    border-color: var(--color-primary-growdev);
+}
+
+.logout-button:hover {
+    background-color: hsl(0, 100%, 66%);
+}
+
+.float-button:hover {
+    background-color: var(--color-secondary-growdev);
+    border-color: var(--color-secondary-growdev);
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(213.33,10.11%,17.45%);
+}

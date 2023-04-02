@@ -1,0 +1,44 @@
+:root {
+    --color-primary-growdev: hsl(120.58,49.76%,59.41%);
+    --color-secondary-growdev: hsl(120.58,49.76%,39.41%);
+    --width-float-button: 3rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.modal-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary-growdev);
+    border-color: var(--color-primary-growdev);
+
+}
+
+.modal-button:hover {
+    background-color: var(--color-secondary-growdev);
+    border-color: var(--color-secondary-growdev);
+}
+
+body {
+    max-height: 100vh;
+    overflow: hidden;
+    background-color: hsl(213.33,10.11%,17.45%);
+}
+
+#arrow {
+    position: relative;
+    animation: move 1s linear 0s infinite alternate;
+}
+
+@keyframes move {
+    from {
+        top: 10px
+    }
+    to {
+        top: 0px
+    }
+}
